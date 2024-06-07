@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex2.css">
+</head>
+<body>
+    <video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+        <!-- 
+      - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+      WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    
+      <source src="./186845-879056530_small.mp4" type="video/mp4">
+      
+      </video>
+      <div id="polina">
+      
+      <h2 class="textv">Ураааа  поехали построить счастье! И увидеть всю красоту этого мира украсив его нашим счастьем<br>&#10084;&#10084;&#10084;&#10084;&#10084;</h2>
+      <button>Pause</button>
+      </div>
+
+    <script src="./ex.js"></script>
+</body>
+</html>
